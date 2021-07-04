@@ -56,7 +56,8 @@ module.exports = {
       {
         modules: 'commonjs',
         useBuiltIns: process.env.UNI_PLATFORM === 'h5' ? 'usage' : 'entry'
-      }
+      },
+      
     ]
   ],
   plugins
